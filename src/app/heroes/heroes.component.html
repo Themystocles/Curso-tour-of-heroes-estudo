@@ -1,0 +1,10 @@
+<h3>MY HEROES</h3>
+<ul>
+    <li *ngFor="let listah of heroes" (click)="onselect(listah)">
+        {{listah.name}}
+
+    </li>
+</ul>
+
+
+<app-hero-detail [hero]="selectedhero"></app-hero-detail>
