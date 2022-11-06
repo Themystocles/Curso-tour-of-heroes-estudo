@@ -7,6 +7,11 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { AppRoutingModule } from './app-routing.module';
+import { MatIconModule } from '@angular/material/icon';
+
+
+
 
 
 @NgModule({
@@ -20,7 +25,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    AppRoutingModule,
+    MatIconModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

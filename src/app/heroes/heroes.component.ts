@@ -30,8 +30,8 @@ export class HeroesComponent implements OnInit {
   }
   selectedhero?: Hero
 
-  onselect(hero: Hero): void {
-    this.selectedhero = hero
+  onselect(listah: Hero): void {
+    this.selectedhero = listah
 
 
 

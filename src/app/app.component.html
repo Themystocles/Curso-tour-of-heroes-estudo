@@ -1,7 +1,12 @@
 <mat-toolbar color="primary">
-    <span>{{title}}</span>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon"
+        routerLink="/heroes">
+        <mat-icon>favorite</mat-icon>
+    </button>
 </mat-toolbar>
 
 <div class="content">
-    <app-heroes></app-heroes>
+    <router-outlet></router-outlet>
 </div>
