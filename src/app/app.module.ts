@@ -9,6 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { MatIconModule } from '@angular/material/icon';
+import { MessegesComponent } from './messeges/messeges.component';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 
@@ -19,6 +23,8 @@ import { MatIconModule } from '@angular/material/icon';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
+    MessegesComponent,
+    DashboardComponent,
 
   ],
   imports: [
@@ -28,6 +34,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatToolbarModule,
     AppRoutingModule,
     MatIconModule,
+    MatExpansionModule,
+    MatCardModule
 
 
   ],
